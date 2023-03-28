@@ -1,0 +1,85 @@
+.main-contanier{
+    /* background-color: orange; */
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 70%;
+    grid-template-rows: auto auto auto;
+
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    height: 50vh;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.heading h2{
+    margin: 0;
+}
+.icon img{
+    height: 20vh;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+}
+.paragraph p{
+    margin: 0; 
+}
+.para2{
+    display: flex;
+    justify-content: center;
+}
+.para2 p{
+    margin: 0;
+}
+.learn{
+    display: flex;
+    justify-content: center;
+}
+.learn a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.learn a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+}
+.quote a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.quote a:hover{
+    
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.image-hover{
+    position: relative;
+    top: 0;
+}
